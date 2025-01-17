@@ -87,9 +87,10 @@ body{
 .content-one {
     margin-left: 10rem;
     margin-right: 10rem;
-    height: 35vh;
+    height: max-content;
     margin-top: 1rem;
     background-color: rgb(255, 255, 255);
+    overflow-x: auto;
 }
 
 .content-one .heading {
@@ -148,9 +149,10 @@ button {
 .content-two {
     margin-left: 10rem;
     margin-right: 10rem;
-    height: 35vh;
+    height: max-content;
     margin-top: 1rem;
     background-color: rgb(255, 255, 255);
+    overflow-x: auto;
 }
 
 .content-two .heading {
